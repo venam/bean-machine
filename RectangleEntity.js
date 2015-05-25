@@ -21,6 +21,6 @@ RectangleEntity.prototype.draw = function(ctx) {
 				(this.halfWidth*2) * SCALE,
 				(this.halfHeight*2) * SCALE);
 	ctx.restore();
-	
+	//Entity.prototype.draw.call(this, ctx);
 }
 

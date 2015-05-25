@@ -44,7 +44,6 @@ MainGame.prototype.run = function () {
 /*---- End of MainGame ----*/
 
 /*---- Global vars ----*/
-var SCALE    = 30; //scale used for box2D, everything is 30x bigger
 var theGame  = new MainGame();
 //states
 gameState = new ExampleState(theGame);
