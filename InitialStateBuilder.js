@@ -142,7 +142,7 @@ function initialStateBuildObstacles(initialState, game) {
 						x: x+0.32*2,
 						y: j-0.3,
 						angle: 0.0,
-						halfWidth:0.1,
+						halfWidth:0.2,
 						halfHeight: 1.2,
 						dynamic: false,
 						type: "rectangle",
